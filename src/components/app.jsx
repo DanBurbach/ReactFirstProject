@@ -1,9 +1,9 @@
-import React from "react";
-import { Switch, Route } from 'react-router-dom';
+import React from 'react';
 import Error404 from './Error404';
+import { Switch, Route } from 'react-router-dom';
 
-import Header from "./Header";
-import TicketList from "./TicketList";
+import Header from './Header';
+import TicketList from './TicketList';
 import NewTicketForm from './NewTicketForm';
 
 function App(){
